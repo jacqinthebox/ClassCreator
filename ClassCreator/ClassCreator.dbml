@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Uitvaartwensen" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\sqlexpress;Initial Catalog=Uitvaartwensen;Integrated Security=True" SettingsObjectName="ClassCreator.Properties.Settings" SettingsPropertyName="UitvaartwensenConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Wens" Member="Wens">
+    <Type Name="Wen">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Achternaam" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Tussenvoegsels" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Voornaam" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Adres" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Postcode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Woonplaats" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Telefoon" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Geboortedatum" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Geboorteplaats" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Geloofsovertuiging" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Pacemaker" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Donorcodicil" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Notaris" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="VestigingsplaatsNotaris" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DatumTestament" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Naam1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Adres1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Telefoon1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Naam2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Adres2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Telefoon2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Naam3" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Adres3" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Telefoon3" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Naam4" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Adres4" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Telefoon4" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Begrafenis" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BeslotenKring" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Condoleance" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Voorganger" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="NaamVoorganger" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Liturgie" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Organist" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="DienstOpBegraafplaats" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Muziek1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Muziek2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Muziek3" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Muziek4" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Muziek5" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Muziek6" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Opname" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Toespraken" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Rouwcirculaires" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Advertentie" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AdvertentieBlad1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AdvertentieBlad2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AdvertentieBlad3" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Opbaarlokatie" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="OpbaarlokatieElders" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Bedankkaartjes" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="BedankAdvertentie" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="BedankAdvertentieBladen" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Adressenlijst" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Bloemen" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Begraafplaats" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SoortGraf" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BestaandGraf" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DalenKist" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="GedenkMonument" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="GebruikAuto" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Crematorium" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Asbestbestemming" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Consumpties" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SoortConsumpties" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Girorekening" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Bankrekening" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Maatschappij1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Maatschappij2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Maatschappij3" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Maatschappij4" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Maatschappij5" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Maatschappij6" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Maatschappij7" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Maatschappij8" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="OverigeOpmerkingen" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="GrafVak" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="GrafPlaats" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="GrafTelefoon" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Polis1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Polis2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Polis3" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Polis4" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Polis5" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Polis6" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Polis7" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Polis8" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
